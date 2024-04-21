@@ -4,6 +4,8 @@
 
 This modelfile was created to allow `wizardlm2:7b` to offer an experience that somewhat resembles that of Claude (by Anthropic). Obviously, a model of this size that's built and trained on a totally different dataset will never come close to Claude, but I used a prompt that Claude crafted for me that it claimed mimicked its own instructions closely.
 
+(Note: This modelfile was setup and tested for use with Ollama on macOS.)
+
 ## Settings
 
 ### Prompt Template
@@ -73,7 +75,7 @@ This prompt is a compressed version of the prompt below which Claude 3 Opus gene
 
 ## How to Use
 
-To bring this model to life, simply navigate to the folder containing the Claude `modelfile` and execute the following (macOS) terminal commands*:
+To bring this model to life, simply navigate to the folder containing the Claude `modelfile` and execute the following (macOS) terminal commands:
 
 ```
 ollama serve
